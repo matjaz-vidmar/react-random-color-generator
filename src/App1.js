@@ -6,7 +6,16 @@ function App1() {
     <div>
       <h1>Random color generator</h1>
     </div>
-    <div>
+    <div
+    style={{
+      width: 400,
+      height: 400,
+      margin: '0 auto',
+      display: 'flex',
+      justifyContent: 'center'
+      fontSize: 80,
+        }}
+      >
         {color}
       </div>
         <button
