@@ -28,7 +28,7 @@ function App() {
           onClick={(event) => {
             setColor(event.currentTarget.value);
           }}
-        ></input>
+        />
         {color}
       </div>
 
