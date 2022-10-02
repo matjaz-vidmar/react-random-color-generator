@@ -15,22 +15,23 @@ function App() {
 
       <div
         style={{
-          height: '100vh',
-          width: '100vw',
+          height: '500px',
+          width: '500px',
           backgroundColor: color,
           display: 'flex',
           justifyContent: 'center',
           alignItems: 'center',
         }}
       >
-        <input
-          value={'Generate color:' + color}
-          onClick={(event) => {
-            setColor(event.currentTarget.value);
-          }}
-        />
-        {color}
+        Generated Color: {color}
       </div>
+      <input
+        value={'Generated color:' + color}
+        onClick={(event) => {
+          setColor(event.currentTarget.value);
+        }}
+      />
+      <label>{color}</label>
 
       <button
         style={{
